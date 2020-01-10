@@ -5,7 +5,7 @@ Official implementation of graph convolutional network for clustering and Classi
 
 Omar Maddouri, Xiaoning Qian, Byung-Jun Yoon, [Deep representations embed network information for robust disease marker identification]
 
-**NOTE: The scripts repository is intended to reproduce the experiments from the paper **
+** NOTE: The scripts repository is intended to reproduce the experiments from the paper **
 
 Installation
 ------------
