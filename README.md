@@ -1,5 +1,4 @@
 # Graph Convolutional Network for Clustering and Classification (GCNCC)
-====
 
 Official implementation of graph convolutional network for clustering and Classification.
 
@@ -8,17 +7,14 @@ Omar Maddouri, Xiaoning Qian, Byung-Jun Yoon, [Deep representations embed networ
 ** NOTE: The scripts repository is intended to reproduce the experiments from the paper **
 
 ## Installation
-------------
 
 ```python setup.py install```
 
 ## Dependencies
------
 
   ```pip install -r requirements.txt ```
 
 ## Usage
------
 
 ```
 python train.py
