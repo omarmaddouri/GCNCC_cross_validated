@@ -2,9 +2,9 @@
 
 Official implementation of graph convolutional network for clustering and Classification.
 
-Omar Maddouri, Xiaoning Qian, Byung-Jun Yoon, [Deep representations embed network information for robust disease marker identification]
+Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed network information for robust disease marker identification]
 
-**NOTE: The scripts folder is intended to reproduce the experiments from the paper**
+**NOTE: The *scripts* folder is intended to reproduce the experiments from the paper**
 
 ## Installation
 
