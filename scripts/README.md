@@ -18,4 +18,5 @@ Otherwise, you can simply use the pretrained clusters and directly generate the 
 python init.py  #Run as well all files with prefix init_
 ```
 Example: Prediction accuracy on the USA breast cancer dataset:
+![alt text](BRC_USA.png)
 
