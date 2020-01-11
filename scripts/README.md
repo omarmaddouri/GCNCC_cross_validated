@@ -5,7 +5,7 @@ To reproduce the the results of our paper you need to follow the below steps:
 2) Download the PPI network "9606.protein.links.v10.5.txt" or a newer version for homo sapiens from STRING (https://string-db.org/cgi/download.pl).  
 Note: you may use any other network, but you need to edit the parsing scripts (see prepare_files.py) to make the appropriate modifications.
 3) Copy the downloaded PPI network file under the folders (BRC_microarray/input/, SCZ_RNAseq/input/, SCZ_microarray/input/).
-4) Under the script files of each dataset folder run:  
+4) Under each dataset folder of script files run:  
 ``` python prepare_files.py```  
 (Example: the folder ***scripts/BRC_microarray/USA/*** contains the script files for the breast cancer USA dataset).
 5) If you want to retrain the clusters and then get the results, run:
