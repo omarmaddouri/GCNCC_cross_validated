@@ -33,7 +33,7 @@ python rank_clusters.py
 python init.py #It takes few minutes to generate the ROC curve.
 ```
 The resulting ROC curve looks like:
-![alt text](scripts/BRC_USA.png)
+![alt text](scripts/BRC_USA.png)  
 **For more details about the output files, please see the README under *scripts/* folder**
 
 ## Cite
