@@ -33,14 +33,14 @@ ENSP00000001008	3
 ENSP00000001146	4
 ...
 ```
-2) ***PPI.clusters.txt***: contains the resulting clusters by gene id (each line corresponds to one cluster).  
+2) ***PPI.clusters.txt***: contains the resulting clusters where the members are represented by their mapping ids (each line corresponds to one cluster).  
 Example:
 ```
 Center_10579	2089	10579	11409	14054	14740	17224
 Center_13991	2090	4513	11641	13991	14910	18794
 Center_15399	2100	2232	4461	5808	7364	13389	15001	15399
 ```
-3) ***PPI.enrichment.txt***: contains the resulting clusters by gene name.  
+3) ***PPI.enrichment.txt***: contains the resulting clusters where the members are represented by their Ensembl gene names.  
 Example:
 ```
 PKDREJ	ESR2	NAT9	PAX7	AGRN	NTF3
