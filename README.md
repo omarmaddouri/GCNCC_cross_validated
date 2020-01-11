@@ -1,10 +1,10 @@
-# Graph Convolutional Network for Clustering and Classification (GCNCC)
+# Graph Convolutional Network for Network Clustering and Disease Classification
 
 Official implementation of graph convolutional network for clustering and Classification.
 
 Omar Maddouri, Xiaoning Qian, Byung-Jun Yoon, [Deep representations embed network information for robust disease marker identification]
 
-** NOTE: The scripts repository is intended to reproduce the experiments from the paper **
+**NOTE: The scripts folder is intended to reproduce the experiments from the paper**
 
 ## Installation
 
@@ -12,7 +12,11 @@ Omar Maddouri, Xiaoning Qian, Byung-Jun Yoon, [Deep representations embed networ
 
 ## Dependencies
 
-  ```pip install -r requirements.txt ```
+```pip install -r requirements.txt ```
+
+## Workflow
+
+![alt text](workflow.png)
 
 ## Usage
 
@@ -20,13 +24,11 @@ Omar Maddouri, Xiaoning Qian, Byung-Jun Yoon, [Deep representations embed networ
 python train.py
 python rank_clusters.py
 python init.py
-
 ```
-
 
 ## Cite
 
-Please cite our paper if you use this code in your own work:
+Please cite our paper if you use this code in your own work.
 
 ```
 
