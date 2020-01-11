@@ -19,13 +19,22 @@ Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed ne
 ![alt text](workflow.png)
 
 ## Usage
-
+*The USA breast cancer dataset is considered here as an example. You can update the code with the dataset and the network of your preference.*
+1) cd gcncc
+2) Download the GitHub repository locally.
+3) Download the PPI network "9606.protein.links.v10.5.txt" or a newer version for homo sapiens from STRING (https://string-db.org/cgi/download.pl).  
+Note: if the PPI network has different name than the aforementioned, please edit the *utils.py* file and update the file name.
+4) Copy the downloaded PPI network file under the folder data\input.
+5) Run :
 ```
+python prepare_files.py
 python train.py
 python rank_clusters.py
-python init.py
+python init.py #It takes few minutes to generate the ROC curve.
 ```
-**For more details, please see the *scripts/* folder**
+The resulting ROC curve looks like:
+![alt text](scripts/BRC_USA.png)
+**For more details about the output files, please see the README under *scripts/* folder**
 
 ## Cite
 
