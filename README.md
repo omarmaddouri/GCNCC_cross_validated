@@ -25,6 +25,7 @@ python train.py
 python rank_clusters.py
 python init.py
 ```
+**For more details, please see the *scripts/* folder**
 
 ## Cite
 
