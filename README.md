@@ -1,6 +1,6 @@
 # Graph Convolutional Network for Network Clustering and Disease Classification
 
-Official implementation of graph convolutional network for clustering and Classification.
+Official implementation of _G_raph Convolutional Network for Clustering and Classification (**GCNCC**).
 
 Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed network information for robust disease marker identification]
 
