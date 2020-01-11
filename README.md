@@ -24,7 +24,7 @@ Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed ne
 2) Download the GitHub repository locally.
 3) Download the PPI network "9606.protein.links.v10.5.txt" or a newer version for homo sapiens from STRING (https://string-db.org/cgi/download.pl).  
 Note: if the PPI network has different name than the aforementioned, please edit the *utils.py* file and update the file name.
-4) Copy the downloaded PPI network file under the folder data\input.
+4) Copy the downloaded PPI network file under the folder data/input/.
 5) Run :
 ```
 python prepare_files.py
