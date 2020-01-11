@@ -14,7 +14,7 @@ Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed ne
 
 ```pip install -r requirements.txt ```
 
-## Workflow
+## GCNCC workflow
 
 ![alt text](workflow.png)
 
