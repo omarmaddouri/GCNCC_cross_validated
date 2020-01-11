@@ -4,7 +4,7 @@ Official implementation of graph convolutional network for clustering and Classi
 
 Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed network information for robust disease marker identification]
 
-**NOTE: The *scripts* folder is intended to reproduce the experiments from the paper**
+**NOTE: The *scripts* folder is intended to reproduce the experiments from the paper.**
 
 ## Installation
 
@@ -19,7 +19,7 @@ Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed ne
 ![alt text](workflow.png)
 
 ## Usage
-*The USA breast cancer dataset is considered here as an example. You can update the code with the dataset and the network of your preference.*
+***Note: The USA breast cancer dataset is considered here as an example. You can update the code with the dataset and the network of your preference.***
 1) cd gcncc
 2) Download the GitHub repository locally.
 3) Download the PPI network "9606.protein.links.v10.5.txt" or a newer version for homo sapiens from STRING (https://string-db.org/cgi/download.pl).  
@@ -34,7 +34,7 @@ python init.py #It takes few minutes to generate the ROC curve.
 ```
 The resulting ROC curve looks like:
 ![alt text](scripts/BRC_USA.png)  
-**For more details about the output files, please see the README under *scripts/* folder**
+**Note: For more details about the output files, please see the README under *scripts/* folder**
 
 ## Cite
 
