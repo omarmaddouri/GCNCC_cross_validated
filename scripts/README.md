@@ -2,7 +2,8 @@
 
 To reproduce the the results of our paper you need to follow the below steps:
 1) Download the GitHub repository locally.
-2) Download the PPI network "9606.protein.links.v10.5.txt" or newer for homo sapiens from STRING (https://string-db.org/cgi/download.pl).
+2) Download the PPI network "9606.protein.links.v10.5.txt" or a newer version for homo sapiens from STRING (https://string-db.org/cgi/download.pl).  
+Note: you may use any other network, but you need to edit the parsing scripts (see prepare_files.py) to make the appropriate modifications.
 3) Copy the downloaded PPI network file under the folders (BRC_microarray/input/, SCZ_RNAseq/input/, SCZ_microarray/input/).
 4) Under the script files of each dataset folder run:  
 ``` python prepare_files.py```  
