@@ -20,10 +20,10 @@ Omar Maddouri, Xiaoning Qian, and Byung-Jun Yoon, [Deep representations embed ne
 
 ## Usage
 ***Note: The USA breast cancer dataset is considered here as an example. You can update the code with the dataset and the network of your preference.***
-1) cd gcncc
-2) Download the GitHub repository locally.
+1) Download the GitHub repository locally.
+2) cd gcncc
 3) Download the PPI network "9606.protein.links.v10.5.txt" or a newer version for homo sapiens from STRING (https://string-db.org/cgi/download.pl).  
-Note: if the PPI network has different name than the aforementioned, please edit the *utils.py* file and update the file name.
+Note: if the PPI network has different name than the aforementioned one, please edit the *utils.py* file and update the file name.
 4) Copy the downloaded PPI network file under the folder data/input/.
 5) Run :
 ```
